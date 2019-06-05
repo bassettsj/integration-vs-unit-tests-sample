@@ -1,0 +1,26 @@
+{
+  "name": "integration-vs-unit-tests-sample",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "repository": "git@github.com:bassettsj/integration-vs-unit-tests-sample.git",
+  "author": "Steven Bassett <steven.j.bassett@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@testing-library/vue": "^1.0.3",
+    "@vue/test-utils": "^1.0.0-beta.29",
+    "bili": "^4.8.0",
+    "jest": "^24.8.0",
+    "rollup-plugin-vue": "^5.0.0",
+    "vue": "^2.6.10",
+    "vue-jest": "^3.0.4",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "browserslist": "last 1 versions",
+  "scripts": {
+    "test": "jest",
+    "build": "bili"
+  },
+  "dependencies": {
+    "core-js": "2"
+  }
+}
